@@ -901,7 +901,6 @@ h3{
 }
 
 
-
 /* media queries for mobile(576px) */
 
 @media screen and (min-width: 576px) and (max-width:767px) {
@@ -916,8 +915,7 @@ h3{
   }
   .nav ul p{
     font-size: 12px;
-   
-    
+  
   }
   .nav ul li a{
     font-size: 12px;
