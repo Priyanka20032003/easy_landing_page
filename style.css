@@ -576,9 +576,333 @@ h3{
 .footerRight p {
   margin-bottom: 10px;
 }
+
+@media screen and (max-width:396px){
+  
+  h2 {
+    font-size: 13px;
+
+  }
+  .nav{
+    width: 140%;
+    margin-inline: auto;
+  }
+  .nav ul p{
+    font-size: 10px;
+   
+    
+  }
+  .nav ul li a{
+    font-size: 12px;
+  }
+  .phone::before {
+    /* right: 140px;
+    top:27px; */
+    display: none;
+  }
+ 
+  .second{
+    position: relative;
+  }
+  .nav1{
+    display: none;
+  }
+  .icon{
+    display: block;
+  }
+  .second:hover .nav1{
+    display: block;
+    
+  }
+  .nav1 ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    margin: auto;
+    background-color: lightgray;
+    
+    z-index: 999;
+    padding-block: 20px;
+
+  }
+  .hero-bg-content h2 {
+    width: 85%;
+    line-height: 25px;
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+  .hero-bg-content p {
+    width: 70%;
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 15px;
+  }
+  .one h2{
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .one p {
+    width:100%;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .two {
+    gap: 30px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .box {
+    flex-basis: 70%;
+    text-align: center;
+  }
+  .three {
+    flex-wrap: wrap;
+  }
+ 
+
+  .threePara p {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 10px;
+   
+  }
+  .threePara h3{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+  }
+  .doctorimg{
+    width: 300px;
+    margin: auto;
+    
+  }
+  
+  .doctorimg img{
+    width: 100%;
+  }
+  .four h2{
+    font-size: 25px;
+    font-weight: 500;
+
+  }
+
+  .four p {
+    width: 100%;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .paths {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .path {
+    width: 70%;
+  }
+  .learnMore2::after {
+    left: 170px;
+    top: 0px;
+  }
+  .programs h2{
+    font-size: 20px;
+    font-weight: 400;
+
+  }
+  .program-image{
+    width: 300px;
+    margin: auto;
+
+  }
+  .program-image img{
+    width: 100%;
+  }
+
+  .top,
+  .bottom {
+    flex-wrap: wrap;
+  }
+  .topContent,
+  .bottomContent {
+    flex-basis: 100%;
+    text-align: justify;
+  }
+  .topContent h3,
+  .bottomContent h3 {
+    font-size: 20px;
+  }
+  .topContent p,
+  .bottomContent p{
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .topContent h4,
+  .bottomContent h4{
+    line-height: 26px;
+
+  }
+  .bottomContent img{
+    margin-top: 20px;
+  }
+  .bottomContent button{
+    margin-bottom: 20px;
+  }
+  .bg {
+    height: 1600px;
+    width: 160%;
+    top: -5px;
+    left: -90px;
+    overflow-x: hidden;
+  }
+  .fifth {
+    margin-top: 20%;
+  }
+  .edge h2{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -90px;
+  }
+
+  .edge p {
+    width: 100%;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: justify;
+  }
+  .edgePoints {
+    justify-content: space-around;
+    column-gap: 50px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+  }
+  .points {
+    margin-left: 25px;
+    flex-basis: 70%;
+  }
+
+  .functions {
+    flex-wrap: wrap;
+    row-gap: 30px;
+  }
+  .function {
+    flex-basis: 70%;
+    text-align: center;
+  }
+  .functionh2{
+    margin-top: -80px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .function p {
+    width: 100%;
+  }
+  .bg1 {
+    opacity: 0.6;
+    width: 160%;
+    height: 1770px;
+    left: -80px;
+    
+    
+  }
+  .para {
+    width: 100%;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .module {
+    flex-basis: 100%;
+    text-align: start;
+  }
+  .module h3 {
+  
+    margin-bottom: 10px;
+    margin-top: 5px;
+  }
+  .seventh h2{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+  }
+  .eighth {
+    margin-top: 15%;
+    margin-bottom: 5%;
+  }
+  .cards{
+    
+    flex-wrap: wrap;
+    margin-top: -20px;
+  }
+
+  .card {
+   flex-basis: 80%;
+    padding-bottom: 40px;
+   
+  }
+  .card img {
+    object-fit: cover;
+  }
+  .thoughth2{
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .bg2 {
+    height: 1100px;
+    width: 130%;
+    top: -30px;
+    left: -55px;
+    opacity: 0.2;
+    overflow-x: hidden;
+  }
+
+  .ninthh2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    
+  }
+  .help {
+    row-gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+
+  .helpCard {
+    flex-basis: 80%;
+    padding-bottom: 50px;
+    
+  }
+  .footer{
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+  }
+
+  .footerMiddle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+  }
+
+  .footerMiddle h5,
+  .footerRight h5 {
+    text-align: center;
+  }
+  .footerRight {
+   
+    text-align: center;
+  }
+}
 /* Media queries for mobile screen(below 575px) */
 
-@media screen  and (max-width:575px) {
+@media screen and (min-width:397px) and (max-width:575px) {
   h2 {
     font-size: 13px;
 
